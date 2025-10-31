@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Pomodoro - Timer para Programadores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>⏱️ Dev Pomodoro</h1>
+      <p class="subtitle">Técnica Pomodoro para desenvolvedores</p>
+
+      <!-- Seletor de modo -->
+      <div class="mode-selector">
+        <button class="mode-btn active" data-mode="pomodoro">Pomodoro</button>
+        <button class="mode-btn" data-mode="short">Pausa Curta</button>
+        <button class="mode-btn" data-mode="long">Pausa Longa</button>
+      </div>
+
+      <!-- Display do timer -->
+      <div class="timer-display">
+        <div class="time" id="timeDisplay">25:00</div>
+      </div>
+
+      <!-- Barra de progresso -->
+      <div class="progress-ring">
+        <svg width="200" height="200">
+          <circle
+            class="progress-ring-circle"
+            cx="100"
+            cy="100"
+            r="90"
+            fill="none"
+          ></circle>
+          <circle
+            class="progress-ring-circle-fill"
+            id="progressCircle"
+            cx="100"
+            cy="100"
+            r="90"
+            fill="none"
+            stroke-dasharray="565.48"
+            stroke-dashoffset="0"
+          ></circle>
+        </svg>
+      </div>
+
+      <!-- Controles -->
+      <div class="controls">
+        <button class="btn btn-start" id="startBtn">Iniciar</button>
+        <button class="btn btn-pause" id="pauseBtn" style="display: none">
+          Pausar
+        </button>
+        <button class="btn btn-reset" id="resetBtn">Reiniciar</button>
+      </div>
+
+      <!-- Estatísticas -->
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-value" id="pomodorosCompleted">0</div>
+          <div class="stat-label">Pomodoros Hoje</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="totalTime">0h</div>
+          <div class="stat-label">Tempo Focado</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        💻 Código aberto no
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

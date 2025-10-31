@@ -1,0 +1,22 @@
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências (caso adicione Node futuramente)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporários
+*.tmp
+*.temp
