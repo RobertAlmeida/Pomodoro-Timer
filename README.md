@@ -2,8 +2,17 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Deploy](https://img.shields.io/badge/deploy-vercel-black.svg)
 
 Um timer Pomodoro moderno e funcional, desenvolvido especialmente para programadores. Interface limpa, código bem documentado e perfeito para contribuições open source!
+
+## 🌐 Demo ao Vivo
+
+**🔗 [Experimente agora: pomodoro-timer-one-black.vercel.app](https://pomodoro-timer-one-black.vercel.app)**
+
+> Acesse o timer diretamente no navegador, sem necessidade de instalação!
+
+---
 
 ## ✨ Features
 
@@ -18,6 +27,11 @@ Um timer Pomodoro moderno e funcional, desenvolvido especialmente para programad
 - 🎨 **Interface Moderna**: Glassmorphism e animações suaves
 
 ## 🚀 Como Usar
+
+### Opção 1: Usar Online (Recomendado)
+Acesse diretamente: **[pomodoro-timer-one-black.vercel.app](https://pomodoro-timer-one-black.vercel.app)**
+
+### Opção 2: Rodar Localmente
 
 1. Clone o repositório:
 ```bash
@@ -35,6 +49,7 @@ git clone https://github.com/seu-usuario/dev-pomodoro.git
 - **JavaScript Vanilla** - Lógica e interatividade
 - **Web Audio API** - Sons de notificação
 - **Notification API** - Notificações do navegador
+- **Vercel** - Deploy e hospedagem
 
 ## 🎯 Técnica Pomodoro
 
@@ -63,6 +78,14 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhes.
 - [ ] Gráficos de produtividade
 - [ ] Exportar estatísticas
 
+## 📦 Deploy
+
+Este projeto está hospedado na [Vercel](https://vercel.com).
+
+### Deploy seu próprio:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/seu-usuario/dev-pomodoro)
+
 ## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -70,6 +93,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 🙏 Agradecimentos
 
 - Inspirado na Técnica Pomodoro de Francesco Cirillo
+- Hospedado gratuitamente pela [Vercel](https://vercel.com)
 - Feito com ❤️ para a comunidade dev brasileira
 
 ## 📧 Contato
@@ -79,3 +103,5 @@ Tem alguma sugestão ou encontrou um bug? Abra uma [issue](https://github.com/se
 ---
 
 **⭐ Se este projeto te ajudou, considere dar uma estrela no GitHub!**
+
+**🔗 Acesse: [pomodoro-timer-one-black.vercel.app](https://pomodoro-timer-one-black.vercel.app)**
